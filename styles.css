@@ -1,0 +1,60 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 25px;
+}
+
+header {
+    background: #333;
+    color: hsl(223, 60%, 58%);
+    padding: 1rem;
+    text-align: center;
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #f887ec;
+    text-decoration: none;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.portfolio-item {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #6361ff;
+    text-align: center;
+    padding: 1rem;
+}
